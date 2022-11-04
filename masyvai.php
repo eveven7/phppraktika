@@ -18,7 +18,7 @@ echo '<br>'; echo '<br>';
 // shuffle($random_number_array );
 // $random_number_array = array_slice($random_number_array ,0,30);
 // print_r($random_number_array);
-
+//Sugeneruokite masyvą iš 30 elementų (indeksai nuo 0 iki 29), kurių reikšmės yra atsitiktiniai skaičiai nuo 5 iki 25.
 $random_number_array = range(0 , 29);
 foreach($random_number_array as &$val){
     $val = rand(5, 25);

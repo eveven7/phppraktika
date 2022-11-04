@@ -52,6 +52,7 @@ $pattern = '/a/i';
 echo preg_replace($pattern, '*', $america);
 echo '<br>'; echo '<br>';
 
+
 ?>
 
 
